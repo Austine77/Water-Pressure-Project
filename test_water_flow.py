@@ -1,8 +1,8 @@
 import pytest
-from water_flow import pressure_loss_from_fittings, reynolds_number, pressure_loss_from_pipe_reduction
+from water_flow import pressure_loss_from_water_flow
 
 # Test Function 1: Test pressure loss from fittings
-def test_pressure_loss_from_fittings():
+def test_pressure_loss_from_water_flow():
     # Ensure the function works for different fitting types
     assert abs(pressure_loss_from_fittings(0.00, 3, 'elbow') - 0.000) < 0.001
     assert abs(pressure_loss_from_fittings(1.65, 0, 'elbow') - 0.000) < 0.001
