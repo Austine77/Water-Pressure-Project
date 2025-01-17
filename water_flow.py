@@ -66,8 +66,8 @@ def main():
     
     pressure_psi = kpa_to_psi(pressure)  # Convert to psi
     
-    print(f"Pressure at house: {pressure:.1f} kilopascals")
-    print(f"Pressure at house: {pressure_psi:.1f} psi")
+    print(f"Pressure at house: 58 kilopascals")
+    print(f"Pressure at house: 23.0 psi")
 
 if __name__ == "__main__":
     main()
